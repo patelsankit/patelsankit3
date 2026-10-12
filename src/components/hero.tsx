@@ -5,7 +5,7 @@
 import Image from "next/image";
 import { profile, socials, stats } from "@/data/profile";
 import { BlurFade, BlurFadeText } from "./blur-fade";
-import { ArrowUpRightIcon, FileIcon, GitHubOutlineIcon, MapPinIcon } from "./icons";
+import { ArrowUpRightIcon, FileIcon, GitHubOutlineIcon } from "./icons";
 
 const github = socials.find((s) => s.icon === "github")!;
 
@@ -36,8 +36,8 @@ export function Hero() {
           </div>
         </BlurFade>
         <BlurFade immediate delay={0.3} offset={-6}>
-          <p className="inline-flex items-center gap-1.5 rounded-full border bg-card/70 px-3 py-1 text-[13.5px] text-muted-foreground backdrop-blur">
-            <MapPinIcon width={13} height={13} />
+          <p className="inline-flex items-center gap-2 rounded-full border bg-card/70 px-3 py-1 text-[13.5px] text-muted-foreground backdrop-blur">
+            <span aria-hidden className="size-2 animate-pulse rounded-full bg-emerald-500" />
             {profile.location}
           </p>
         </BlurFade>
