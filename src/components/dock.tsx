@@ -83,7 +83,7 @@ function DockItem({
       </motion.span>
       <span
         role="tooltip"
-        className="pointer-events-none absolute -top-10 left-1/2 -translate-x-1/2 rounded-md bg-foreground px-2 py-1 text-[12.5px] font-medium whitespace-nowrap text-background opacity-0 transition-opacity group-focus-within:opacity-100 group-hover:opacity-100"
+        className="pointer-events-none absolute -top-10 left-1/2 max-[500px]:hidden -translate-x-1/2 rounded-md bg-foreground px-2 py-1 text-[12.5px] font-medium whitespace-nowrap text-background opacity-0 transition-opacity group-focus-within:opacity-100 group-hover:opacity-100"
       >
         {label}
       </span>
