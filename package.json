@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "motion": "^14.1.0",
     "next": "16.4.0",
     "react": "19.3.0",
     "react-dom": "19.3.0"
@@ -22,5 +23,7 @@
     "eslint-config-next": "16.4.0",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "author": "Sankit Parasiya <patelsankit16@gmail.com> (https://github.com/patelsankit)",
+  "license": "UNLICENSED"
 }
