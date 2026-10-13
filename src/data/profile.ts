@@ -17,9 +17,9 @@ export const profile = {
   avatar: "/sankit-photo.webp",
   resume: "/sankit-parasiya-resume.pdf",
   tagline:
-    "I turn Figma files into fast, pixel-perfect, fully responsive products with React, Next.js & TypeScript.",
+    "I design and develop scalable SaaS and business applications with React, Next.js & TypeScript — clean architecture, fast performance, pixel-perfect UI.",
   summary:
-    "Senior Frontend Developer with 4+ years of hands-on experience building high-performance, pixel-perfect web applications with React, Next.js, TypeScript and Tailwind CSS.",
+    "Senior Frontend Developer with 4+ years of experience designing and developing scalable SaaS and business applications with React, Next.js and TypeScript, focused on clean architecture, performance and maintainability.",
 } as const;
 
 export const contact = {

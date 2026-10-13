@@ -56,9 +56,14 @@ export function Hero() {
           </span>
         </h1>
         <BlurFade immediate delay={0.6}>
-          <p className="max-w-[34rem] text-pretty text-muted-foreground sm:text-lg">
+          <p className="max-w-[44rem] text-pretty leading-relaxed text-muted-foreground sm:text-lg">
             <span className="font-medium text-foreground">{profile.role}</span> with 4+ years of
-            experience. {profile.tagline}
+            experience designing and developing scalable SaaS and business applications with{" "}
+            <strong className="font-medium text-foreground">React</strong>,{" "}
+            <strong className="font-medium text-foreground">Next.js</strong> and{" "}
+            <strong className="font-medium text-foreground">TypeScript</strong>. A strong
+            problem-solver focused on clean architecture, performance and maintainability — from
+            pixel-perfect UI to production-ready code.
           </p>
         </BlurFade>
       </div>
