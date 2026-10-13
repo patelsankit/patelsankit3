@@ -50,7 +50,10 @@ export default function Home() {
           <Hero />
           <About />
 
-          <Section id="work" title="Work experience" index="02">
+
+          <Skills />
+
+          <Section id="work" title="Work experience" index="03">
             <ExperienceList />
             <div className="mt-10">
               <BlurFade>
@@ -72,8 +75,6 @@ export default function Home() {
               </BlurFade>
             </div>
           </Section>
-
-          <Skills />
           <ClientWork />
           <Projects />
           <Contact />

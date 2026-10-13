@@ -9,7 +9,7 @@ import { Section } from "./section";
 
 export function Skills() {
   return (
-    <Section id="skills" title="Skills & tools" index="03">
+    <Section id="skills" title="Skills & tools" index="02">
       <div className="grid gap-5">
         {skillGroups.map((group, g) => (
           <div key={group.label} className="grid gap-2.5 sm:grid-cols-[10rem_1fr] sm:gap-4">
