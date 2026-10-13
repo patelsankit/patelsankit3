@@ -19,7 +19,7 @@ export const profile = {
   tagline:
     "I design and develop scalable SaaS and business applications with React, Next.js & TypeScript — clean architecture, fast performance, pixel-perfect UI.",
   summary:
-    "Senior Frontend Developer with 4+ years of experience designing and developing scalable SaaS and business applications with React, Next.js and TypeScript, focused on clean architecture, performance and maintainability.",
+    "Senior Frontend Developer with 5+ years of experience designing and developing scalable SaaS and business applications with React, Next.js and TypeScript, focused on clean architecture, performance and maintainability.",
 } as const;
 
 export const contact = {
@@ -42,7 +42,7 @@ export const socials = [
 ] as const;
 
 export const about = [
-  "I'm Sankit — a frontend developer who cares about the last 10% that makes an interface feel finished. For the past 4+ years I've been translating complex Figma designs into responsive, cross-browser interfaces for products in fintech, field operations, travel and e-commerce.",
+  "I'm Sankit — a frontend developer who cares about the last 10% that makes an interface feel finished. For the past 5+ years I've been translating complex Figma designs into responsive, cross-browser interfaces for products in fintech, field operations, travel and e-commerce.",
   "Today I work at Bacancy Technology with React, Next.js, TypeScript and Tailwind CSS, and lean on AI-assisted workflows — Claude Code, Cursor, Codex and Antigravity — to understand large codebases quickly, refactor safely and ship production-grade features faster.",
 ];
 
@@ -53,7 +53,7 @@ export const principles = [
 ];
 
 export const stats = [
-  { value: "4+", label: "Years building for the web" },
+  { value: "5+", label: "Years building for the web" },
   { value: "5", label: "Teams shipped with" },
   { value: "8.70", label: "CGPA, B.E. Computer Eng." },
 ];
