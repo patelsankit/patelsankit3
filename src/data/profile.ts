@@ -225,15 +225,6 @@ export const projects: Project[] = [
     href: "https://latesthub.vercel.app/",
   },
   {
-    title: "Bhavya Quartz",
-    category: "Corporate",
-    description:
-      "Corporate website for a quartz stone manufacturer and distributor — product range, services and the industries they serve.",
-    image: "/projects/bhavyaquartz.webp",
-    stack: ["Next.js", "Tailwind CSS", "SCSS"],
-    href: "https://www.bhavyaquartz.com/",
-  },
-  {
     title: "Clastera",
     category: "Brand site",
     description:
@@ -250,15 +241,6 @@ export const projects: Project[] = [
     image: "/projects/cleango.webp",
     stack: ["Next.js", "Tailwind CSS", "HTML/CSS"],
     note: "Client work",
-  },
-  {
-    title: "YT to MP3",
-    category: "Utility",
-    description:
-      "Paste a YouTube URL, convert, and download a high-quality MP3 for offline listening — fast and friction-free.",
-    image: "/projects/yt-mp3.webp",
-    stack: ["React", "Node.js", "Tailwind CSS"],
-    href: "https://yt-convert-wheat.vercel.app/",
   },
   {
     title: "RayBan-TEG",
